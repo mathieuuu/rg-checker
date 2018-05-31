@@ -18,7 +18,8 @@ public class Main {
         while (true) {
             System.out.println("Wait...");
             Thread.sleep(5000);
-            System.out.println((new Date()).getSeconds()+" Check");
+            Date d = new Date();
+            System.out.println(d.toString()+" Check");
             check();
         }
     }
